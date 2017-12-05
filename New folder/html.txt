@@ -1,0 +1,34 @@
+ Full name*:
+            <input type="text" required name="name" placeholder="Your name here"/>
+            <br><br>
+            DOB:
+            <input type="date" name="dob" required/>
+            <br><br>
+            Gender:
+            <input type="radio" required name="gender"/>Male
+            <input type="radio" required name="gender"/>female
+            <br><br>
+            Email:
+            <input type="email" name="email" placeholder="Enter your email"/>
+            <br><br>
+            Your lucky No:
+            <input type="number" name="lucky_number"/>
+            <br><br>
+            Select University:
+            <select name="universty" required>
+                <option value="">--Select Uni--</option>
+                <option value="SU">Strathmore University</option>
+                <option value="KU">Kenyatta University</option>
+                <option value="MKU">Mount Kenya University</option>
+                <option value="UoN">University of Nairobi</option>
+            </select>
+            <br><br>
+            Select programming languages: <br>
+            <input type="checkbox" name="cplusplus"/>C++
+            <input type="checkbox" name="c"/>C
+            <br>
+            <input type="checkbox" name="java"/>java
+            <input type="checkbox" name="python"/>python
+            <br>
+            <input type="checkbox" name="csharp"/>C#
+            <br><br>
